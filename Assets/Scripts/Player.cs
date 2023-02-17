@@ -10,7 +10,7 @@ namespace DefaultNamespace
         
         //but making something public is a bad approach so use serializeField instead to view in editor.
         [SerializeField] private float charSpeed = 8f;
-        [SerializeField] private float rotationSpeed = 2f;
+        [SerializeField] private float rotationSpeed = 5f;
         private void Update()
         {
             Vector2 inputVector = new Vector2(0, 0);
